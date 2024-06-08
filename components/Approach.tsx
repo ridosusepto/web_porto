@@ -7,17 +7,17 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Pendekatan<span className="text-purple"> Saya</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
+          title="Perencanaan & Strategi"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="Akan berkolaborasi untuk memetakan tujuan situs web Anda, target audiens, 
+          dan fungsi utama. Kami akan membahas hal-hal seperti struktur situs, 
+          navigasi, dan persyaratan konten."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +26,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Pembaruan Perkembangan & Kemajuan"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Setelah menyelesaikan perencanaan awal, selanjutnya adalah proses pembaruan, perkembangan, dan kemajuan web desain. Tahapan ini mencakup revisi desain, pengembangan fitur baru, dan optimalisasi performa untuk memastikan hasil yang maksimal."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +46,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Pengembangan & Peluncuran"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Pengembangan & Peluncuran melibatkan proses implementasi desain akhir, pengujian fungsionalitas, serta peluncuran resmi untuk memastikan kualitas dan kesiapan produk."
         >
           <CanvasRevealEffect
             animationSpeed={3}
