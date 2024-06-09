@@ -2,7 +2,7 @@ import { withSentryConfig } from '@sentry/nextjs';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // Tambahkan konfigurasi Next.js lainnya jika diperlukan
+    output: "export",
 };
 
 const sentryWebpackPluginOptions = {
