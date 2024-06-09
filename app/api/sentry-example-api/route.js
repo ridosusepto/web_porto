@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-export const dynamic = "force-dynamic";
+// git add .
 
 // A faulty API route to test Sentry's error monitoring
 export function GET() {
